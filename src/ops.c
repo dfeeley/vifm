@@ -56,7 +56,7 @@
 #include "trash.h"
 
 #ifdef SUPPORT_NO_CLOBBER
-#define NO_CLOBBER "-n"
+#define NO_CLOBBER "--update=none"
 #else
 #define NO_CLOBBER ""
 #endif
